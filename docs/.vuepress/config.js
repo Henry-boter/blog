@@ -1,20 +1,39 @@
 module.exports = {
+  base: '/blog/',
   title: '翌擎大前端',
-  description: '技术文档',
+  description: '前端创造无线可能',
   themeConfig: {
     logo: 'https://i.loli.net/2019/12/19/Lh7ZSUCJX2Kon3j.jpg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
+      { text: '指南', link: '/guide/' },
       {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
+        text: '功能',
+        ariaLabel: 'Features Menu',
         items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
+          {
+            text: '组件',
+            items: [
+              { text: 'SliceUpload（大文件切片上传）', ariaLabel: 'Slice upload', link: '/language/chinese/' },
+              { text: 'Tinymce(富文本)', link: '/language/chinese/' },
+            ],
+          },
+          {
+            text: 'JavaScript库',
+            items: [ { text: 'Lodash', link: '/language/chinese/' }],
+          },
         ]
       },
-      { text: 'Github', link: '/' },
+      // {
+      //   text: 'Languages',
+      //   ariaLabel: 'Language Menu',
+      //   items: [
+      //     { text: 'Chinese', link: '/language/chinese/' },
+      //     { text: 'Japanese', link: '/language/japanese/' }
+      //   ]
+      // },
+      { text: 'Github', link: '/github' },
+      { text: '更新日志', link: '/logs' },
       { text: '关注我', link: 'https://google.com', target:'_self', rel:'' },
     ],
     sidebar: [

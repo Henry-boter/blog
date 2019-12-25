@@ -13,7 +13,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Henry-boter/blog.git master:gh-pages
+# 如果发布到 https://github.com/Henry-boter/blog.git
+git push -f https://github.com/Henry-boter/blog.git master:gh-pages
 
 cd -
