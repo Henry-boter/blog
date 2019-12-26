@@ -33,8 +33,8 @@ module.exports = {
       //   ]
       // },
       { text: 'Github', link: '/github' },
-      { text: '更新日志', link: '/logs' },
-      { text: '关注我', link: 'https://google.com', target:'_self', rel:'' },
+      { text: '更新日志', link: '/config.html' },
+      { text: '关注我', link: 'https://github.com/Henry-boter', target:'_self', rel:'' },
     ],
     sidebar: [
       '/',
