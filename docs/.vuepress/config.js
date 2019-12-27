@@ -16,6 +16,8 @@ module.exports = {
             items: [
               { text: 'SliceUpload（大文件切片上传）', ariaLabel: 'Slice upload', link: '/language/chinese/' },
               { text: 'Tinymce(富文本)', link: '/language/chinese/' },
+              { text: '大屏监控', link: '/language/chinese/' },
+              { text: '电子围栏', link: '/language/chinese/' },
             ],
           },
           {

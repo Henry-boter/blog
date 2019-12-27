@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo_engine.jpg
 heroText: Engine
-tagline: 前端创造无线可能
+tagline: 前端创造无限可能
 actionText: 快速上手 →
 actionLink: /guide/
 features:
