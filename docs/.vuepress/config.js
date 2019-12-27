@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     logo: 'https://i.loli.net/2019/12/19/Lh7ZSUCJX2Kon3j.jpg',
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '规范', link: '/standard/' },
       { text: '指南', link: '/guide/' },
       {
         text: '功能',
