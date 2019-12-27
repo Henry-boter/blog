@@ -1,9 +1,9 @@
 module.exports = {
   base: '/blog/',
-  title: '翌擎大前端',
+  title: 'BOB大前端',
   description: '前端创造无线可能',
   themeConfig: {
-    logo: 'https://i.loli.net/2019/12/19/Lh7ZSUCJX2Kon3j.jpg',
+    logo: null,
     nav: [
       { text: '规范', link: '/standard/' },
       { text: '指南', link: '/guide/' },
